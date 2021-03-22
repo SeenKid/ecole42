@@ -23,6 +23,8 @@ Actions de Php' :
 
 21/03, 23h : 
 -Commence le cours openclassrooms sur Laravel
+22/03, 21h : 
+-Fait une RichPresence discord pour la FRC
 
 ------------------------------------------------------------------------
 
