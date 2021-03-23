@@ -27,6 +27,9 @@ Actions de Php' :
 22/03, 21h : 
 -Fait une RichPresence discord pour la FRC
 
+24/03, 00h : 
+-Continue les tutos C, publie son bot discord.
+
 ------------------------------------------------------------------------
 
 Actions de Nekyuu : 
