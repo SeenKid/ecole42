@@ -30,6 +30,9 @@ Actions de Php' :
 24/03, 00h : 
 -Continue les tutos C, publie son bot discord.
 
+26/03, 23h30 : 
+-Lance son idée de cheat (Hacked Client Minecraft en version 1.8 et 1.9)
+
 ------------------------------------------------------------------------
 
 Actions de Nekyuu : 
