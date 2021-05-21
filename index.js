@@ -19,3 +19,5 @@ buttons : [{label : "Rejoins nous ! ❤️" , url : "https://discord.gg/YH8Qbjr2
 client.login({ 
 	clientId : "820236976439164949" 
 }).catch(console.error);
+
+// this is not working anymore on discord. 
