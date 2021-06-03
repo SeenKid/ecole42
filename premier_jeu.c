@@ -16,11 +16,8 @@ int main ( int argc, char** argv )
 
     do
     {
-        // On demande le nombre
         printf("Quel est le nombre ? ");
         scanf("%d", &nombreEntre);
-
-        // On compare le nombre entré avec le nombre mystère
 
         if (nombreMystere > nombreEntre)
             printf("C'est plus !\n\n");

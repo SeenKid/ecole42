@@ -1,0 +1,85 @@
+Résumé des cours OpenClassrooms
+
+#1
+En résumé
+
+    Les programmes peuvent communiquer avec l'utilisateur via une console ou une fenêtre.
+
+    Il est beaucoup plus facile pour nos premiers programmes de travailler avec la console, bien que celle-ci soit moins attirante pour un débutant. Cela ne nous empêchera pas par la suite de travailler avec des fenêtres dans la partie III. Tout vient à point à qui sait attendre. ;)
+
+    Un programme est constitué d'instructions qui se terminent toutes par un point-virgule.
+
+    Les instructions sont contenues dans des fonctions qui permettent de les classer, comme dans des boîtes.
+
+    La fonctionmain(qui signifie « principale ») est la fonction par laquelle démarre votre programme. C'est la seule qui soit obligatoire, aucun programme ne peut être compilé sans elle.
+
+    printfest une fonction toute prête qui permet d'afficher un message à l'écran dans une console.
+
+    printfse trouve dans une bibliothèque où l'on retrouve de nombreuses autres fonctions prêtes à l'emploi.
+
+
+
+#2
+En résumé
+
+    Nos ordinateurs possèdent plusieurs types de mémoire. De la plus rapide à la plus lente : les registres, la mémoire cache, la mémoire vive et le disque dur.
+
+    Pour « retenir » des informations, notre programme a besoin de stocker des données dans la mémoire. Il utilise pour cela la mémoire vive. Les registres et la mémoire cache sont aussi utilisés pour augmenter les performances, mais cela fonctionne automatiquement, nous n'avons pas à nous en préoccuper.
+
+    Dans notre code source, les variables sont des données stockées temporairement en mémoire vive. La valeur de ces données peut changer au cours du programme.
+
+    À l'opposé, on parle de constantes pour des données stockées en mémoire vive. La valeur de ces données ne peut pas changer.
+
+    Il existe plusieurs types de variables, qui occupent plus ou moins d'espace en mémoire. Certains types commeintsont prévus pour stocker des nombres entiers, tandis que d'autres commedoublestockent des nombres décimaux.
+
+    La fonctionscanfpermet de demander à l'utilisateur de saisir un nombre.
+
+
+
+#3
+En résumé
+
+    Un ordinateur n'est en fait qu'une calculatrice géante : tout ce qu'il sait faire, ce sont des opérations.
+
+    Les opérations connues par votre ordinateur sont très basiques : l'addition, la soustraction, la multiplication, la division et le modulo (il s'agit du reste de la division).
+
+    Il est possible d'effectuer des calculs entre des variables. C'est d'ailleurs ce qu'un ordinateur sait faire de mieux : il le fait bien et vite.
+
+    L'incrémentation est l'opération qui consiste à ajouter 1 à une variable. On écritvariable++.
+
+    La décrémentation est l'opération inverse : on retire 1 à une variable. On écrit doncvariable--.
+
+    Pour augmenter le nombre d'opérations connues par votre ordinateur, il faut charger la bibliothèque mathématique (c'est-à-dire#include <math.h>).
+
+    Cette bibliothèque contient des fonctions mathématiques plus avancées, telles que la puissance, la racine carrée, l'arrondi, l'exponentielle, le logarithme, etc.
+
+
+
+#4
+En résumé
+
+    Les conditions sont à la base de tous les programmes. C'est un moyen pour l'ordinateur de prendre une décision en fonction de la valeur d'une variable.
+
+    Les mots-clésif,else if,elsesignifient respectivement « si », « sinon si », « sinon ». On peut écrire autant deelse ifque l'on désire.
+
+    Un booléen est une variable qui peut avoir deux états : vrai (1) ou faux (0) (toute valeur différente de 0 est en fait considérée comme « vraie »). On utilise desintpour stocker des booléens car ce ne sont en fait rien d'autre que des nombres.
+
+    Leswitchest une alternative auifquand il s'agit d'analyser la valeur d'une variable. Il permet de rendre un code source plus clair si vous vous apprêtiez à tester de nombreux cas. Si vous utilisez de nombreuxelse ifc'est en général le signe qu'unswitchserait plus adapté pour rendre le code source plus lisible.
+
+    Les ternaires sont des conditions très concises qui permettent d'affecter rapidement une valeur à une variable en fonction du résultat d'un test. On les utilise avec parcimonie car le code source a tendance à devenir moins lisible avec elles.
+
+
+
+
+#5
+En résumé
+
+    Les boucles sont des structures qui nous permettent de répéter une série d'instructions plusieurs fois.
+
+    Il existe plusieurs types de boucles :while,do… whileetfor. Certaines sont plus adaptées que d'autres selon les cas.
+
+    La boucleforest probablement celle qu'on utilise le plus dans la pratique. On y fait très souvent des incrémentations ou des décrémentations de variables.
+
+
+
+#6
