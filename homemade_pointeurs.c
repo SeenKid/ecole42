@@ -41,5 +41,7 @@ int main (void) {
 	interversion(pointeurSalade, pointeurPoulet);
 	printf("je préfère manger du %d (poulet) plutôt que de la %d (salade) car je suis un vrai bonhomme\n", salade, poulet);
 
+
+	printf("Made by TweekLG");
 	return 0;
 }

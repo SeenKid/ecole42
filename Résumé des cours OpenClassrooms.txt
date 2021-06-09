@@ -82,4 +82,12 @@ En résumé
 
 
 
-#6
+Les tableaux : 
+
+    Les tableaux sont des ensembles de variables du même type stockées côte à côte en mémoire.
+
+    La taille d'un tableau doit être déterminée avant la compilation, elle ne peut pas dépendre d'une variable.
+
+    Chaque case d'un tableau de typeintcontient une variable de typeint.
+
+    Les cases sont numérotées via des indices commençant à 0 :tableau[0],tableau[1],tableau[2], etc.
