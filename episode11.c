@@ -54,7 +54,7 @@ int main(void)
 	printf("AVANT : A = %d et B = %d\n", nombreA, nombreB);
 	//inverser_nombres(&nombreA, &nombreB);
 	inverser_nombres(pointeurSurNombreA, pointeurSurNombreB);
-	printf("AVANT : A = %d et B = %d\n", nombreA, nombreB)
+	printf("AVANT : A = %d et B = %d\n", nombreA, nombreB);
 
 	return 0;
 }

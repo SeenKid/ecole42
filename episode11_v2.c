@@ -1,9 +1,24 @@
 #include <stdio.h>
 
+/*
+Un pointeur (change_nombre int *nb)
+*/
+
 void change_nombre(int *nb)
 {
 	*nb = 15;
 }
+
+/* 
+J'aurai pu return la value en faisant : 
+
+int change_nombre(int *nb) {
+
+	return 15;
+}
+
+*/
+
 
 int main(void)
 {
