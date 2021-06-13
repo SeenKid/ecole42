@@ -17,18 +17,24 @@ int interversion2 (int *pt_salade, int *pt_poulet) {
 	temporaire = *pt_salade;
 	*pt_salade = *pt_poulet;
 	*pt_poulet = temporaire;
-
+	
 }
 
 int main (void) {
 
+	//variables
 	int age = 17;
 	int argent = 300;
 	int poulet = 1;
 	int salade = 0;
 
+	//pointeurs
 	int *pointeurAge = &age;
 	int *pointeurArgent = &argent;
+
+	//chaines de caractères
+	signed char salade1[] = "salade";
+	signed char poulet1[] = "poulet";
 
 	printf("J'ai %d ans et j'ai %d € sur mon compte en banque\n", age, argent);
 	interversion(pointeurAge, pointeurArgent);
@@ -37,9 +43,9 @@ int main (void) {
 	int *pointeurSalade = &salade;
 	int *pointeurPoulet = &poulet;
 
-	printf("je préfère manger de la %d (salade) plutôt que %d (poulet) car je suis un sacré fils de pute\n", salade, poulet);
+	printf("je préfère manger de la (%d) %s plutôt que (%d)%s car je suis un sacré fils de pute\n", salade, salade1, poulet, poulet1);
 	interversion(pointeurSalade, pointeurPoulet);
-	printf("je préfère manger du %d (poulet) plutôt que de la %d (salade) car je suis un vrai bonhomme\n", salade, poulet);
+	printf("je préfère manger du (%d) %s plutôt que de la (%d) %s car je suis un vrai bonhomme\n", poulet, poulet1, salade, salade1);
 
 
 	printf("Made by TweekLG");
