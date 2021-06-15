@@ -27,7 +27,7 @@ int main(void) {
 	printf("PV du joueur : %d\n", pl.hp);
 	printf("Mana du joueur : %d\n\n", pl.mana);
 
-	/* ------------------------------------------- */ 
+	/* ------------------------------------------- */
 
 	struct Bot bot = {"Bot1", 150, 200};
 
@@ -40,8 +40,9 @@ int main(void) {
 	/* ------------------------------------------- */ 
  
         printf("Voulez vraiment lancer un duel ? ( 1 = Oui // 0 = Non)\n --->");
-		scanf("%s", replay);
-    
+		scanf("%s\n", replay);
+    	printf("Made by TweekLG\n")
+
     return 0;
 
 }
