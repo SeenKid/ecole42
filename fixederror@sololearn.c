@@ -15,3 +15,5 @@ int main() {
   printf("%d", magic("SoloLearn"));
   return 0;
 }
+
+/* this was a shitty error on sololearn */
