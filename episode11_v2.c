@@ -17,6 +17,8 @@ int change_nombre(int *nb) {
 	return 15;
 }
 
+voir la vidéo de formation video pour comprendre || C episode 11
+
 */
 
 
